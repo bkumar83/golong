@@ -1,0 +1,747 @@
+2025/04/06 10:48:24 Server starting on http://localhost:8080
+[06-Apr-2025 10:48:31] 404 - GET / -      37.125µs
+2025/04/06 10:52:09 Server starting on http://localhost:8080
+[06-Apr-2025 10:52:15] 200 - GET / -     105.458µs
+2025/04/06 10:52:52 Generating JWT for: 
+2025/04/06 10:52:52 Generating JWT for: 
+[06-Apr-2025 10:52:50] 200 - POST /api/login -   940.99125ms
+[06-Apr-2025 10:52:59] 401 - GET /api/private/data -      28.042µs
+[06-Apr-2025 10:54:25] 200 - GET / -        14.5µs
+2025/04/06 11:16:24 Server starting on http://localhost:8080
+2025/04/06 11:16:43 Error during registration: UNIQUE constraint failed: users.username
+[06-Apr-2025 11:16:42] 500 - POST /api/register -  939.344167ms
+2025/04/06 11:17:02 Error during registration: UNIQUE constraint failed: users.username
+[06-Apr-2025 11:17:01] 500 - POST /api/register -  941.622209ms
+2025/04/06 11:17:45 Error during registration: UNIQUE constraint failed: users.username
+[06-Apr-2025 11:17:44] 500 - POST /api/register -  940.367208ms
+[06-Apr-2025 11:19:18] 401 - GET /api/private/data -      78.458µs
+2025/04/06 11:20:13 Error during registration: UNIQUE constraint failed: users.username
+[06-Apr-2025 11:20:12] 500 - POST /api/register -  939.940917ms
+2025/04/06 11:27:42 Server starting on http://localhost:8080
+2025/04/06 11:27:53 Received Username from Request: 
+2025/04/06 11:27:53 Error: Username is empty after parsing
+[06-Apr-2025 11:27:53] 400 - POST /api/register -     393.209µs
+2025/04/06 12:01:06 Server starting on http://localhost:8080
+2025/04/06 12:01:06 Failed to start server:failed to listen: listen tcp4 :8080: bind: address already in use
+2025/04/06 12:02:17 Server starting on http://localhost:8080
+2025/04/06 12:03:04 Server starting on http://localhost:8080
+2025/04/06 12:03:04 Failed to start server:failed to listen: listen tcp4 :8080: bind: address already in use
+2025/04/06 12:03:10 Raw Request Body: {"username": "abcuser1", "password": "mypassword"}
+2025/04/06 12:03:10 Parsed Username: 
+2025/04/06 12:03:10 Parsed Password: 
+2025/04/06 12:03:10 Error: Username is empty after parsing
+[06-Apr-2025 12:03:10] 400 - POST /api/register -     464.375µs
+2025/04/06 12:06:25 Server starting on http://localhost:8080
+2025/04/06 12:06:33 Raw Request Body: {"username": "abcuser1", "password": "mypassword"}
+2025/04/06 12:06:33 Parsed Username: 
+2025/04/06 12:06:33 Parsed Password: 
+2025/04/06 12:06:33 Error: Username is empty after parsing
+[06-Apr-2025 12:06:32] 400 - POST /api/register -     426.791µs
+2025/04/06 12:10:37 Server starting on http://localhost:8080
+2025/04/06 12:11:53 Server starting on http://localhost:8080
+2025/04/06 12:12:10 Raw Request Body: {"username": "abcuser1", "password": "mypassword"}
+2025/04/06 12:12:10 Parsed Username: 
+2025/04/06 12:12:10 Parsed Password: 
+2025/04/06 12:12:10 Error: Username is empty after parsing
+[06-Apr-2025 12:12:10] 400 - POST /api/register -     470.291µs
+2025/04/06 12:16:13 Server starting on http://localhost:8080
+2025/04/06 12:16:19 Raw Request Body: {"username": "abcuser1", "password": "mypassword"}
+2025/04/06 12:16:19 Decoded JSON Data: map[password:mypassword username:abcuser1]
+2025/04/06 12:16:19 Parsed Username: 
+2025/04/06 12:16:19 Parsed Password: 
+2025/04/06 12:16:19 Error: Username is empty after parsing
+[06-Apr-2025 12:16:19] 400 - POST /api/register -     547.459µs
+2025/04/06 12:18:32 Server starting on http://localhost:8080
+2025/04/06 12:18:38 Raw Request Body: {"username": "abcuser1", "password": "mypassword"}
+2025/04/06 12:18:38 Decoded JSON Data: map[password:mypassword username:abcuser1]
+2025/04/06 12:18:38 Parsed Username: 
+2025/04/06 12:18:38 Parsed Password: 
+2025/04/06 12:18:38 Error: Username is empty after parsing
+[06-Apr-2025 12:18:38] 400 - POST /api/register -     542.916µs
+2025/04/06 12:19:42 Server starting on http://localhost:8080
+2025/04/06 12:19:46 Raw Request Body: {"username": "abcuser1", "password": "mypassword"}
+2025/04/06 12:19:46 Content-Type: application/x-www-form-urlencoded
+2025/04/06 12:19:46 Decoded JSON Data: map[password:mypassword username:abcuser1]
+2025/04/06 12:19:46 Parsed Username: 
+2025/04/06 12:19:46 Parsed Password: 
+2025/04/06 12:19:46 Error: Username is empty after parsing
+[06-Apr-2025 12:19:46] 400 - POST /api/register -     603.583µs
+2025/04/06 12:20:11 Raw Request Body: {"username": "abcuser1", "password": "mypassword"}
+2025/04/06 12:20:11 Content-Type: application/json
+2025/04/06 12:20:11 Decoded JSON Data: map[password:mypassword username:abcuser1]
+2025/04/06 12:20:11 Parsed Username: abcuser1
+2025/04/06 12:20:11 Parsed Password: mypassword
+[06-Apr-2025 12:20:11] 200 - POST /api/register -     609.083µs
+[06-Apr-2025 12:20:48] 401 - GET /api/private/data -      52.125µs
+2025/04/06 12:21:16 Generating JWT for: 
+2025/04/06 12:21:16 Generating JWT for: 
+[06-Apr-2025 12:21:15] 200 - POST /api/login -  947.820542ms
+[06-Apr-2025 12:21:29] 401 - GET /api/private/data -      30.083µs
+2025/04/06 12:44:36 Server starting on http://localhost:8080
+2025/04/06 12:45:54 Raw Request Body: {"username": "abcuser11", "password": "mypassword1"}
+2025/04/06 12:45:54 Content-Type: application/json
+2025/04/06 12:45:54 Decoded JSON Data: map[password:mypassword1 username:abcuser11]
+2025/04/06 12:45:54 Parsed Username: abcuser11
+2025/04/06 12:45:54 Parsed Password: mypassword1
+[06-Apr-2025 12:45:54] 200 - POST /api/register -     656.916µs
+[06-Apr-2025 12:46:26] 401 - POST /api/login -     659.584µs
+2025/04/06 12:48:53 Raw Request Body: {"username": "testuser12", "password": "mypassword"}
+2025/04/06 12:48:53 Content-Type: application/json
+2025/04/06 12:48:53 Decoded JSON Data: map[password:mypassword username:testuser12]
+2025/04/06 12:48:53 Parsed Username: testuser12
+2025/04/06 12:48:53 Parsed Password: mypassword
+[06-Apr-2025 12:48:53] 200 - POST /api/register -     222.708µs
+2025/04/06 12:49:05 Raw Request Body: {"username": "testuser12", "password": "mypassword"}
+2025/04/06 12:49:05 Content-Type: application/json
+2025/04/06 12:49:05 Decoded JSON Data: map[password:mypassword username:testuser12]
+2025/04/06 12:49:05 Parsed Username: testuser12
+2025/04/06 12:49:05 Parsed Password: mypassword
+[06-Apr-2025 12:49:04] 200 - POST /api/register -     174.875µs
+2025/04/06 12:49:40 Raw Request Body: {"username": "testuser1222", "password": "mypassword222"}
+2025/04/06 12:49:40 Content-Type: application/json
+2025/04/06 12:49:40 Decoded JSON Data: map[password:mypassword222 username:testuser1222]
+2025/04/06 12:49:40 Parsed Username: testuser1222
+2025/04/06 12:49:40 Parsed Password: mypassword222
+[06-Apr-2025 12:49:40] 200 - POST /api/register -     197.958µs
+2025/04/06 12:54:51 Server starting on http://localhost:8080
+2025/04/06 12:54:59 Raw Request Body: {"username": "testuser1222", "password": "mypassword222"}
+2025/04/06 12:54:59 Content-Type: application/json
+2025/04/06 12:54:59 Decoded JSON Data: map[password:mypassword222 username:testuser1222]
+2025/04/06 12:54:59 Parsed Username: testuser1222
+2025/04/06 12:54:59 Parsed Password: mypassword222
+[06-Apr-2025 12:54:59] 200 - POST /api/register -     675.209µs
+2025/04/06 12:57:09 Server starting on http://localhost:8080
+2025/04/06 13:00:22 Server starting on http://localhost:8080
+2025/04/06 13:00:29 Raw Request Body: {"username": "testuser1222", "password": "mypassword222"}
+2025/04/06 13:00:29 Content-Type: application/json
+2025/04/06 13:00:29 Decoded JSON Data: map[password:mypassword222 username:testuser1222]
+2025/04/06 13:00:29 User registered successfully in database: testuser1222
+2025/04/06 13:00:29 Parsed Username: testuser1222
+2025/04/06 13:00:29 Parsed Password: mypassword222
+[06-Apr-2025 13:00:28] 200 - POST /api/register -    1.891708ms
+2025/04/06 13:01:29 Raw Request Body: {"username": "testuser1222", "password": "mypassword222"}
+2025/04/06 13:01:29 Content-Type: application/json
+2025/04/06 13:01:29 Decoded JSON Data: map[password:mypassword222 username:testuser1222]
+2025/04/06 13:01:29 Error during registration: UNIQUE constraint failed: users.username
+[06-Apr-2025 13:01:29] 500 - POST /api/register -     714.625µs
+[06-Apr-2025 13:01:57] 401 - POST /api/login -     493.125µs
+2025/04/06 13:03:01 Raw Request Body: {"username": "testuser1222", "password": "mypassword222"}
+2025/04/06 13:03:01 Content-Type: application/json
+2025/04/06 13:03:01 Decoded JSON Data: map[password:mypassword222 username:testuser1222]
+2025/04/06 13:03:01 Error during registration: UNIQUE constraint failed: users.username
+[06-Apr-2025 13:03:01] 500 - POST /api/register -     690.583µs
+[06-Apr-2025 13:03:39] 401 - POST /api/login -      429.25µs
+2025/04/06 13:05:36 Server starting on http://localhost:8080
+2025/04/06 13:05:52 Raw Request Body: {"username": "testuser12221", "password": "mypassword2221"}
+2025/04/06 13:05:52 Content-Type: application/json
+2025/04/06 13:05:52 Decoded JSON Data: map[password:mypassword2221 username:testuser12221]
+2025/04/06 13:05:52 User registered successfully in database: testuser12221
+2025/04/06 13:05:52 Parsed Username: testuser12221
+2025/04/06 13:05:52 Parsed Password: mypassword2221
+[06-Apr-2025 13:05:52] 200 - POST /api/register -    2.718042ms
+2025/04/06 13:06:05 Login Attempt - Username: testuser12221
+2025/04/06 13:06:05 Login Attempt - Password: mypassword2221
+2025/04/06 13:06:05 User found in database: testuser12221
+2025/04/06 13:06:05 Password mismatch for user: testuser12221
+[06-Apr-2025 13:06:05] 401 - POST /api/login -     483.667µs
+2025/04/06 13:08:11 Login Attempt - Username: testuser1222
+2025/04/06 13:08:11 Login Attempt - Password: mypassword222
+2025/04/06 13:08:11 User found in database: testuser1222
+2025/04/06 13:08:11 Password mismatch for user: testuser1222
+[06-Apr-2025 13:08:11] 401 - POST /api/login -     680.666µs
+2025/04/06 13:08:52 Login Attempt - Username: 
+2025/04/06 13:08:52 Login Attempt - Password: 
+2025/04/06 13:08:52 User not found in the database: record not found
+[06-Apr-2025 13:08:52] 401 - POST /api/login -     596.125µs
+2025/04/06 13:09:51 Server starting on http://localhost:8080
+2025/04/06 13:10:00 Raw Request Body (Login): {"username": "testuser1222", "password": "mypassword222"}
+2025/04/06 13:10:00 Content-Type (Login): application/json
+2025/04/06 13:10:00 Login Attempt - Parsed Username: testuser1222
+2025/04/06 13:10:00 Login Attempt - Parsed Password: mypassword222
+2025/04/06 13:10:00 User found in database: testuser1222
+2025/04/06 13:10:00 Password mismatch for user: testuser1222
+[06-Apr-2025 13:10:00] 401 - POST /api/login -    1.066583ms
+2025/04/06 13:12:22 Raw Request Body (Login): {"username": "testuser1222", "password": "mypassword222"}
+2025/04/06 13:12:22 Content-Type (Login): application/json
+2025/04/06 13:12:22 Login Attempt - Parsed Username: testuser1222
+2025/04/06 13:12:22 Login Attempt - Parsed Password: mypassword222
+2025/04/06 13:12:22 User found in database: testuser1222
+2025/04/06 13:12:22 Password mismatch for user: testuser1222
+[06-Apr-2025 13:12:22] 401 - POST /api/login -     750.584µs
+2025/04/06 13:18:23 Server starting on http://localhost:8080
+2025/04/06 13:18:42 Received Registration Username: testuser1234
+2025/04/06 13:18:42 Received Registration Password: mypassword1234
+2025/04/06 13:18:42 Hashing password: mypassword1234
+2025/04/06 13:18:42 Generated hash: $2a$10$T0Veus..9NEOZaZZd15Ehuh4.2bGr4aEZICTSqVpdc8q/5i4NjAUy
+2025/04/06 13:18:42 User registered successfully: testuser1234
+[06-Apr-2025 13:18:41] 200 - POST /api/register -   78.826542ms
+2025/04/06 13:18:57 Raw Request Body (Login): {"username": "testuser1234", "password": "mypassword1234"}
+2025/04/06 13:18:57 Content-Type (Login): application/json
+2025/04/06 13:18:57 Login Attempt - Parsed Username: testuser1234
+2025/04/06 13:18:57 Login Attempt - Parsed Password: mypassword1234
+2025/04/06 13:18:57 User found in database: testuser1234
+2025/04/06 13:18:57 Comparing password and hash
+2025/04/06 13:18:57 Plain Password: mypassword1234
+2025/04/06 13:18:57 Stored Hash: $2a$10$T0Veus..9NEOZaZZd15Ehuh4.2bGr4aEZICTSqVpdc8q/5i4NjAUy
+2025/04/06 13:18:57 Password comparison successful
+2025/04/06 13:18:57 Password verification successful for user: testuser1234
+2025/04/06 13:18:57 Generating JWT for: testuser1234
+2025/04/06 13:18:57 Login successful for user: testuser1234
+[06-Apr-2025 13:18:56] 200 - POST /api/login -   77.644208ms
+2025/04/06 13:21:26 Received Registration Username: testuser
+2025/04/06 13:21:26 Received Registration Password: mypassword
+2025/04/06 13:21:26 Hashing password: mypassword
+2025/04/06 13:21:26 Generated hash: $2a$10$U4/ve8B1I45hXJx8CBcxG.F41no7YsaQ.WDLoSTHjB2mMbEA3e3Wm
+2025/04/06 13:21:26 User registered successfully: testuser
+[06-Apr-2025 13:21:25] 200 - POST /api/register -   78.509625ms
+2025/04/06 13:21:34 Raw Request Body (Login): {"username": "testuser", "password": "mypassword"}
+2025/04/06 13:21:34 Content-Type (Login): application/json
+2025/04/06 13:21:34 Login Attempt - Parsed Username: testuser
+2025/04/06 13:21:34 Login Attempt - Parsed Password: mypassword
+2025/04/06 13:21:34 User found in database: testuser
+2025/04/06 13:21:34 Comparing password and hash
+2025/04/06 13:21:34 Plain Password: mypassword
+2025/04/06 13:21:34 Stored Hash: $2a$10$U4/ve8B1I45hXJx8CBcxG.F41no7YsaQ.WDLoSTHjB2mMbEA3e3Wm
+2025/04/06 13:21:34 Password comparison successful
+2025/04/06 13:21:34 Password verification successful for user: testuser
+2025/04/06 13:21:34 Generating JWT for: testuser
+2025/04/06 13:21:34 Login successful for user: testuser
+[06-Apr-2025 13:21:33] 200 - POST /api/login -     76.4555ms
+[06-Apr-2025 13:22:33] 401 - GET /api/private/data -      50.417µs
+2025/04/06 13:34:48 Server starting on http://localhost:8080
+2025/04/06 13:35:01 Received Registration Username: testuser
+2025/04/06 13:35:01 Received Registration Password: mypassword
+2025/04/06 13:35:01 Hashing password: mypassword
+2025/04/06 13:35:01 Generated hash: $2a$10$CdGPVG7kcPX3j/2.q2epXOVTS2BSo1sulG0KNg18cvuNGbfE5oZlG
+2025/04/06 13:35:01 Error during registration: UNIQUE constraint failed: users.username
+[06-Apr-2025 13:35:01] 500 - POST /api/register -   76.940875ms
+2025/04/06 13:35:12 Received Registration Username: testuser1
+2025/04/06 13:35:12 Received Registration Password: mypassword1
+2025/04/06 13:35:12 Hashing password: mypassword1
+2025/04/06 13:35:12 Generated hash: $2a$10$5LbR9cyFEMvh0PkiZl4dOu2qsouvS2OXTVESZVf8BBW3esfSYkfh2
+2025/04/06 13:35:12 User registered successfully: testuser1
+[06-Apr-2025 13:35:12] 200 - POST /api/register -   80.687125ms
+2025/04/06 13:35:32 Raw Request Body (Login): {"username": "testuser1", "password": "mypassword1"}
+2025/04/06 13:35:32 Content-Type (Login): application/json
+2025/04/06 13:35:32 Login Attempt - Parsed Username: testuser1
+2025/04/06 13:35:32 Login Attempt - Parsed Password: mypassword1
+2025/04/06 13:35:32 User found in database: testuser1
+2025/04/06 13:35:32 Comparing password and hash
+2025/04/06 13:35:32 Plain Password: mypassword1
+2025/04/06 13:35:32 Stored Hash: $2a$10$5LbR9cyFEMvh0PkiZl4dOu2qsouvS2OXTVESZVf8BBW3esfSYkfh2
+2025/04/06 13:35:32 Password comparison successful
+2025/04/06 13:35:32 Password verification successful for user: testuser1
+2025/04/06 13:35:32 Generating JWT for: testuser1
+2025/04/06 13:35:32 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMSIsImV4cCI6MTc0MzkxODYzMiwic3ViIjoidGVzdHVzZXIxIn0.bDlRsbIAgbOFkY4U-BJz7lmBY9sQoRro7hatDuhbUTI
+2025/04/06 13:35:32 Login successful for user: testuser1
+[06-Apr-2025 13:35:32] 200 - POST /api/login -   78.359625ms
+[06-Apr-2025 13:35:46] 401 - GET /api/private/data -      32.708µs
+2025/04/06 13:39:05 Server starting on http://localhost:8080
+2025/04/06 13:39:26 Received Registration Username: testuser12
+2025/04/06 13:39:26 Received Registration Password: mypassword12
+2025/04/06 13:39:26 Hashing password: mypassword12
+2025/04/06 13:39:26 Generated hash: $2a$10$1xb4.VeUHodA8z71XtZiAOXzn6m03j5p8cTtOvyqoxx9DHRSrVoR6
+2025/04/06 13:39:26 User registered successfully: testuser12
+[06-Apr-2025 13:39:26] 200 - POST /api/register -   79.977708ms
+2025/04/06 13:40:11 Raw Request Body (Login): {"username": "testuser12", "password": "mypassword12"}
+2025/04/06 13:40:11 Content-Type (Login): application/json
+2025/04/06 13:40:11 Login Attempt - Parsed Username: testuser12
+2025/04/06 13:40:11 Login Attempt - Parsed Password: mypassword12
+2025/04/06 13:40:11 User found in database: testuser12
+2025/04/06 13:40:11 Comparing password and hash
+2025/04/06 13:40:11 Plain Password: mypassword12
+2025/04/06 13:40:11 Stored Hash: $2a$10$1xb4.VeUHodA8z71XtZiAOXzn6m03j5p8cTtOvyqoxx9DHRSrVoR6
+2025/04/06 13:40:11 Password comparison successful
+2025/04/06 13:40:11 Password verification successful for user: testuser12
+2025/04/06 13:40:11 Generating JWT for: testuser12
+2025/04/06 13:40:11 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMTIiLCJleHAiOjE3NDM5MTg5MTEsInN1YiI6InRlc3R1c2VyMTIifQ.yRZZKsKIosXaiPvqJlT5SJGOGMT6-hONT-9nL6ukJYU
+2025/04/06 13:40:11 Login successful for user: testuser12
+[06-Apr-2025 13:40:11] 200 - POST /api/login -   80.018125ms
+2025/04/06 13:40:36 Token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMTIiLCJleHAiOjE3NDM5MTg5MTEsInN1YiI6InRlc3R1c2VyMTIifQ.yRZZKsKIosXaiPvqJlT5SJGOGMT6-hONT-9nL6ukJYU
+2025/04/06 13:40:36 Authenticated user from token claims: testuser12
+2025/04/06 13:40:36 Accessing private data for user: testuser12
+[06-Apr-2025 13:40:36] 200 - GET /api/private/data -     253.833µs
+[06-Apr-2025 14:59:37] 204 - OPTIONS /api/register -      31.125µs
+2025/04/06 14:59:38 Received Registration Username: testuser
+2025/04/06 14:59:38 Received Registration Password: qweqwewq
+2025/04/06 14:59:38 Hashing password: qweqwewq
+2025/04/06 14:59:38 Generated hash: $2a$10$LDkAatYQsxUkwibEDJOjgOn4smrNBhecug4jJFXcW1lL44Gwk3.oO
+2025/04/06 14:59:38 Error during registration: UNIQUE constraint failed: users.username
+[06-Apr-2025 14:59:37] 500 - POST /api/register -   73.391416ms
+[06-Apr-2025 15:02:36] 204 - OPTIONS /api/login -      13.542µs
+2025/04/06 15:02:36 Raw Request Body (Login): {"username":"testuser12","password":"mypassword12"}
+2025/04/06 15:02:36 Content-Type (Login): application/json
+2025/04/06 15:02:36 Login Attempt - Parsed Username: testuser12
+2025/04/06 15:02:36 Login Attempt - Parsed Password: mypassword12
+2025/04/06 15:02:36 User found in database: testuser12
+2025/04/06 15:02:36 Comparing password and hash
+2025/04/06 15:02:36 Plain Password: mypassword12
+2025/04/06 15:02:36 Stored Hash: $2a$10$1xb4.VeUHodA8z71XtZiAOXzn6m03j5p8cTtOvyqoxx9DHRSrVoR6
+2025/04/06 15:02:36 Password comparison successful
+2025/04/06 15:02:36 Password verification successful for user: testuser12
+2025/04/06 15:02:36 Generating JWT for: testuser12
+2025/04/06 15:02:36 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMTIiLCJleHAiOjE3NDM5MjM4NTYsInN1YiI6InRlc3R1c2VyMTIifQ.B2OfdQ2qBKe5IRIh0J26KssSCOy_hjFfpoZiFJ45fPY
+2025/04/06 15:02:36 Login successful for user: testuser12
+[06-Apr-2025 15:02:36] 200 - POST /api/login -   68.647542ms
+[06-Apr-2025 15:04:08] 404 - GET /api/test/all -      42.667µs
+[06-Apr-2025 15:04:18] 404 - GET /api/test/user -       26.75µs
+[06-Apr-2025 15:04:22] 204 - OPTIONS /api/signout -      36.083µs
+[06-Apr-2025 15:04:22] 404 - POST /api/signout -      70.375µs
+[06-Apr-2025 15:04:22] 404 - GET /api/test/all -      31.833µs
+[06-Apr-2025 15:04:54] 204 - OPTIONS /api/register -      22.083µs
+2025/04/06 15:04:54 Received Registration Username: abc1
+2025/04/06 15:04:54 Received Registration Password: abc1abc1
+2025/04/06 15:04:54 Hashing password: abc1abc1
+2025/04/06 15:04:54 Generated hash: $2a$10$fp0KQizxFn8extqtyv40xOK8TybEhj3YV8rwx1MR9azPAjJhCvz8S
+2025/04/06 15:04:54 User registered successfully: abc1
+[06-Apr-2025 15:04:54] 200 - POST /api/register -    79.99275ms
+[06-Apr-2025 15:10:44] 204 - OPTIONS /api/signout -       93.75µs
+[06-Apr-2025 15:10:44] 404 - POST /api/signout -      51.625µs
+[06-Apr-2025 15:10:44] 404 - GET /api/test/all -      33.333µs
+[06-Apr-2025 15:10:46] 404 - POST /api/signout -      56.417µs
+[06-Apr-2025 15:10:46] 404 - GET /api/test/all -        25.5µs
+[06-Apr-2025 15:10:46] 404 - POST /api/signout -       51.25µs
+[06-Apr-2025 15:10:46] 404 - GET /api/test/all -      25.666µs
+2025/04/06 15:40:47 Server starting on http://localhost:8080
+2025/04/06 15:41:14 Raw Request Body (Login): {"username": "testuser12", "password": "mypassword12"}
+2025/04/06 15:41:14 Content-Type (Login): application/json
+2025/04/06 15:41:14 Login Attempt - Parsed Username: testuser12
+2025/04/06 15:41:14 Login Attempt - Parsed Password: mypassword12
+2025/04/06 15:41:14 User found in database: testuser12
+2025/04/06 15:41:14 Comparing password and hash
+2025/04/06 15:41:14 Plain Password: mypassword12
+2025/04/06 15:41:14 Stored Hash: $2a$10$1xb4.VeUHodA8z71XtZiAOXzn6m03j5p8cTtOvyqoxx9DHRSrVoR6
+2025/04/06 15:41:14 Password comparison successful
+2025/04/06 15:41:14 Password verification successful for user: testuser12
+2025/04/06 15:41:14 Generating JWT for: testuser12
+2025/04/06 15:41:14 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMTIiLCJleHAiOjE3NDM5MjYxNzQsInN1YiI6InRlc3R1c2VyMTIifQ.ggCq2ScWhOy6uVOvJTHgD6SUDaoHt-O5vk_oIOoZtVk
+2025/04/06 15:41:14 Login successful for user: testuser12
+[06-Apr-2025 15:41:13] 200 - POST /api/login -   76.630709ms
+2025/04/06 15:42:36 Token from cookie: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMTIiLCJleHAiOjE3NDM5MjYxNzQsInN1YiI6InRlc3R1c2VyMTIifQ.ggCq2ScWhOy6uVOvJTHgD6SUDaoHt-O5vk_oIOoZtVk
+2025/04/06 15:42:36 Authenticated user from token claims: testuser12
+2025/04/06 15:42:36 Accessing protected data for user: testuser12
+[06-Apr-2025 15:42:36] 200 - GET /api/protected -     532.333µs
+[06-Apr-2025 16:13:06] 404 - GET /api/test/all -      95.333µs
+[06-Apr-2025 16:13:20] 404 - GET /api/test/all -      57.541µs
+[06-Apr-2025 16:13:21] 404 - GET /api/test/user -      58.375µs
+[06-Apr-2025 16:13:30] 204 - OPTIONS /api/signout -     107.416µs
+[06-Apr-2025 16:13:30] 404 - POST /api/signout -      42.917µs
+[06-Apr-2025 16:13:30] 404 - GET /api/test/all -      27.125µs
+[06-Apr-2025 16:13:41] 404 - GET /api/test/all -          25µs
+[06-Apr-2025 16:13:51] 404 - GET /api/test/all -        71.5µs
+[06-Apr-2025 16:13:52] 404 - GET /api/test/user -      59.875µs
+[06-Apr-2025 16:13:53] 404 - GET /api/test/all -      60.083µs
+[06-Apr-2025 17:43:31] 204 - OPTIONS /api/auth/signout -      49.917µs
+[06-Apr-2025 17:43:31] 404 - POST /api/auth/signout -      39.917µs
+[06-Apr-2025 17:43:44] 404 - GET /api/test/all -      29.708µs
+[06-Apr-2025 17:43:48] 404 - GET /api/test/all -      93.583µs
+[06-Apr-2025 17:49:32] 204 - OPTIONS /api/auth/signin -     102.083µs
+[06-Apr-2025 17:49:32] 404 - POST /api/auth/signin -      52.334µs
+[06-Apr-2025 17:51:23] 204 - OPTIONS /api/login -      74.125µs
+2025/04/06 17:51:23 Raw Request Body (Login): {"username":"testuser12","password":"mypassword12"}
+2025/04/06 17:51:23 Content-Type (Login): application/json
+2025/04/06 17:51:23 Login Attempt - Parsed Username: testuser12
+2025/04/06 17:51:23 Login Attempt - Parsed Password: mypassword12
+2025/04/06 17:51:23 User found in database: testuser12
+2025/04/06 17:51:23 Comparing password and hash
+2025/04/06 17:51:23 Plain Password: mypassword12
+2025/04/06 17:51:23 Stored Hash: $2a$10$1xb4.VeUHodA8z71XtZiAOXzn6m03j5p8cTtOvyqoxx9DHRSrVoR6
+2025/04/06 17:51:23 Password comparison successful
+2025/04/06 17:51:23 Password verification successful for user: testuser12
+2025/04/06 17:51:23 Generating JWT for: testuser12
+2025/04/06 17:51:23 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMTIiLCJleHAiOjE3NDM5MzM5ODMsInN1YiI6InRlc3R1c2VyMTIifQ.cd8O3juwzUA1KzSRu3WV04kE1jP1BVOgyfEypgCuiTg
+2025/04/06 17:51:23 Login successful for user: testuser12
+[06-Apr-2025 17:51:23] 200 - POST /api/login -   69.705333ms
+[06-Apr-2025 18:27:49] 204 - OPTIONS /api/login -      59.875µs
+2025/04/06 18:27:49 Raw Request Body (Login): {"username":"testuser12","password":"mypassword12"}
+2025/04/06 18:27:49 Content-Type (Login): application/json
+2025/04/06 18:27:49 Login Attempt - Parsed Username: testuser12
+2025/04/06 18:27:49 Login Attempt - Parsed Password: mypassword12
+2025/04/06 18:27:49 User found in database: testuser12
+2025/04/06 18:27:49 Comparing password and hash
+2025/04/06 18:27:49 Plain Password: mypassword12
+2025/04/06 18:27:49 Stored Hash: $2a$10$1xb4.VeUHodA8z71XtZiAOXzn6m03j5p8cTtOvyqoxx9DHRSrVoR6
+2025/04/06 18:27:49 Password comparison successful
+2025/04/06 18:27:49 Password verification successful for user: testuser12
+2025/04/06 18:27:49 Generating JWT for: testuser12
+2025/04/06 18:27:49 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMTIiLCJleHAiOjE3NDM5MzYxNjksInN1YiI6InRlc3R1c2VyMTIifQ.ZwtPRcQtFIsDY1JFwATK-bg08XMk3Rpi46-ambCHIgw
+2025/04/06 18:27:49 Login successful for user: testuser12
+[06-Apr-2025 18:27:49] 200 - POST /api/login -   70.171833ms
+[07-Apr-2025 13:18:42] 204 - OPTIONS /api/signout -     114.333µs
+[07-Apr-2025 13:18:42] 404 - POST /api/signout -      67.834µs
+[07-Apr-2025 14:00:42] 204 - OPTIONS /api/login -      97.042µs
+2025/04/07 14:00:43 Raw Request Body (Login): {"username":"test1234","password":"test1234"}
+2025/04/07 14:00:43 Content-Type (Login): application/json
+2025/04/07 14:00:43 Login Attempt - Parsed Username: test1234
+2025/04/07 14:00:43 Login Attempt - Parsed Password: test1234
+2025/04/07 14:00:43 User not found in the database: record not found
+[07-Apr-2025 14:00:42] 401 - POST /api/login -        3.46ms
+[07-Apr-2025 14:01:58] 204 - OPTIONS /api/register -      64.792µs
+2025/04/07 14:01:59 Received Registration Username: test1234
+2025/04/07 14:01:59 Received Registration Password: test1234
+2025/04/07 14:01:59 Hashing password: test1234
+2025/04/07 14:01:59 Generated hash: $2a$10$WcriFZaON7mshXOcGXWuVeU.YhDEFt60d97xb9.tEP5Tqp5inhcpG
+2025/04/07 14:01:59 User registered successfully: test1234
+[07-Apr-2025 14:01:58] 200 - POST /api/register -   97.882458ms
+[07-Apr-2025 14:02:17] 204 - OPTIONS /api/login -      35.625µs
+2025/04/07 14:02:18 Raw Request Body (Login): {"username":"test1234","password":"test1234"}
+2025/04/07 14:02:18 Content-Type (Login): application/json
+2025/04/07 14:02:18 Login Attempt - Parsed Username: test1234
+2025/04/07 14:02:18 Login Attempt - Parsed Password: test1234
+2025/04/07 14:02:18 User found in database: test1234
+2025/04/07 14:02:18 Comparing password and hash
+2025/04/07 14:02:18 Plain Password: test1234
+2025/04/07 14:02:18 Stored Hash: $2a$10$WcriFZaON7mshXOcGXWuVeU.YhDEFt60d97xb9.tEP5Tqp5inhcpG
+2025/04/07 14:02:18 Password comparison successful
+2025/04/07 14:02:18 Password verification successful for user: test1234
+2025/04/07 14:02:18 Generating JWT for: test1234
+2025/04/07 14:02:18 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QxMjM0IiwiZXhwIjoxNzQ0MDA2NjM4LCJzdWIiOiJ0ZXN0MTIzNCJ9.zik1dQQcUZPEkEZ26NiwAkLuPpjifDX7RO6Bg56m1gs
+2025/04/07 14:02:18 Login successful for user: test1234
+[07-Apr-2025 14:02:17] 200 - POST /api/login -   91.551916ms
+[07-Apr-2025 14:22:40] 204 - OPTIONS /api/signout -      38.542µs
+[07-Apr-2025 14:22:40] 404 - POST /api/signout -      47.667µs
+[07-Apr-2025 14:41:15] 204 - OPTIONS /api/signout -       60.25µs
+[07-Apr-2025 14:41:15] 404 - POST /api/signout -      60.417µs
+[07-Apr-2025 15:05:47] 204 - OPTIONS /api/signout -     174.083µs
+[07-Apr-2025 15:05:47] 404 - POST /api/signout -      89.542µs
+[07-Apr-2025 15:32:01] 204 - OPTIONS /api/login -      34.459µs
+2025/04/07 15:32:02 Raw Request Body (Login): {"username":"testuser12","password":"testuser12"}
+2025/04/07 15:32:02 Content-Type (Login): application/json
+2025/04/07 15:32:02 Login Attempt - Parsed Username: testuser12
+2025/04/07 15:32:02 Login Attempt - Parsed Password: testuser12
+2025/04/07 15:32:02 User found in database: testuser12
+2025/04/07 15:32:02 Comparing password and hash
+2025/04/07 15:32:02 Plain Password: testuser12
+2025/04/07 15:32:02 Stored Hash: $2a$10$1xb4.VeUHodA8z71XtZiAOXzn6m03j5p8cTtOvyqoxx9DHRSrVoR6
+2025/04/07 15:32:02 Password comparison failed: crypto/bcrypt: hashedPassword is not the hash of the given password
+2025/04/07 15:32:02 Password mismatch for user: testuser12
+[07-Apr-2025 15:32:01] 401 - POST /api/login -   70.161917ms
+[07-Apr-2025 15:32:42] 204 - OPTIONS /api/register -      24.458µs
+2025/04/07 15:32:42 Received Registration Username: test567
+2025/04/07 15:32:42 Received Registration Password: test567
+2025/04/07 15:32:42 Hashing password: test567
+2025/04/07 15:32:42 Generated hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 15:32:42 User registered successfully: test567
+[07-Apr-2025 15:32:42] 200 - POST /api/register -          74ms
+[07-Apr-2025 15:32:58] 204 - OPTIONS /api/login -      13.041µs
+2025/04/07 15:32:59 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 15:32:59 Content-Type (Login): application/json
+2025/04/07 15:32:59 Login Attempt - Parsed Username: test567
+2025/04/07 15:32:59 Login Attempt - Parsed Password: test567
+2025/04/07 15:32:59 User found in database: test567
+2025/04/07 15:32:59 Comparing password and hash
+2025/04/07 15:32:59 Plain Password: test567
+2025/04/07 15:32:59 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 15:32:59 Password comparison successful
+2025/04/07 15:32:59 Password verification successful for user: test567
+2025/04/07 15:32:59 Generating JWT for: test567
+2025/04/07 15:32:59 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMTIwNzksInN1YiI6InRlc3Q1NjcifQ.RN3fXZIy5Z67HY8uK7KJY5pIFe5LUvsuBAveZ1DF26Y
+2025/04/07 15:32:59 Login successful for user: test567
+[07-Apr-2025 15:32:58] 200 - POST /api/login -    69.79775ms
+[07-Apr-2025 15:35:02] 204 - OPTIONS /api/login -      27.791µs
+2025/04/07 15:35:02 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 15:35:02 Content-Type (Login): application/json
+2025/04/07 15:35:02 Login Attempt - Parsed Username: test567
+2025/04/07 15:35:02 Login Attempt - Parsed Password: test567
+2025/04/07 15:35:02 User found in database: test567
+2025/04/07 15:35:02 Comparing password and hash
+2025/04/07 15:35:02 Plain Password: test567
+2025/04/07 15:35:02 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 15:35:02 Password comparison successful
+2025/04/07 15:35:02 Password verification successful for user: test567
+2025/04/07 15:35:02 Generating JWT for: test567
+2025/04/07 15:35:02 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMTIyMDIsInN1YiI6InRlc3Q1NjcifQ.oagSGF1X2P2S1ZUQtRWKjDpt9OdimgAyzbGzMknm6Qg
+2025/04/07 15:35:02 Login successful for user: test567
+[07-Apr-2025 15:35:02] 200 - POST /api/login -   89.815292ms
+[07-Apr-2025 15:37:03] 204 - OPTIONS /api/login -      24.875µs
+2025/04/07 15:37:04 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 15:37:04 Content-Type (Login): application/json
+2025/04/07 15:37:04 Login Attempt - Parsed Username: test567
+2025/04/07 15:37:04 Login Attempt - Parsed Password: test567
+2025/04/07 15:37:04 User found in database: test567
+2025/04/07 15:37:04 Comparing password and hash
+2025/04/07 15:37:04 Plain Password: test567
+2025/04/07 15:37:04 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 15:37:04 Password comparison successful
+2025/04/07 15:37:04 Password verification successful for user: test567
+2025/04/07 15:37:04 Generating JWT for: test567
+2025/04/07 15:37:04 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMTIzMjQsInN1YiI6InRlc3Q1NjcifQ.geChE7Q_ksh9HwrfglFsbXnTr1Sn07VNPxrTF0YkJIo
+2025/04/07 15:37:04 Login successful for user: test567
+[07-Apr-2025 15:37:03] 200 - POST /api/login -   88.377625ms
+[07-Apr-2025 16:05:44] 204 - OPTIONS /api/login -      39.042µs
+2025/04/07 16:05:45 Raw Request Body (Login): {"username":"test567","password":"tes567"}
+2025/04/07 16:05:45 Content-Type (Login): application/json
+2025/04/07 16:05:45 Login Attempt - Parsed Username: test567
+2025/04/07 16:05:45 Login Attempt - Parsed Password: tes567
+2025/04/07 16:05:45 User found in database: test567
+2025/04/07 16:05:45 Comparing password and hash
+2025/04/07 16:05:45 Plain Password: tes567
+2025/04/07 16:05:45 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 16:05:45 Password comparison failed: crypto/bcrypt: hashedPassword is not the hash of the given password
+2025/04/07 16:05:45 Password mismatch for user: test567
+[07-Apr-2025 16:05:44] 401 - POST /api/login -   88.756708ms
+[07-Apr-2025 16:06:36] 204 - OPTIONS /api/login -      30.084µs
+2025/04/07 16:06:36 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 16:06:36 Content-Type (Login): application/json
+2025/04/07 16:06:36 Login Attempt - Parsed Username: test567
+2025/04/07 16:06:36 Login Attempt - Parsed Password: test567
+2025/04/07 16:06:36 User found in database: test567
+2025/04/07 16:06:36 Comparing password and hash
+2025/04/07 16:06:36 Plain Password: test567
+2025/04/07 16:06:36 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 16:06:37 Password comparison successful
+2025/04/07 16:06:37 Password verification successful for user: test567
+2025/04/07 16:06:37 Generating JWT for: test567
+2025/04/07 16:06:37 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMTQwOTcsInN1YiI6InRlc3Q1NjcifQ.UBNZF2EPRHFOF8cCQD5Lk102trRuz-sT9utofHaldGk
+2025/04/07 16:06:37 Login successful for user: test567
+[07-Apr-2025 16:06:36] 200 - POST /api/login -   89.634792ms
+[07-Apr-2025 16:07:39] 204 - OPTIONS /api/login -      17.125µs
+2025/04/07 16:07:40 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 16:07:40 Content-Type (Login): application/json
+2025/04/07 16:07:40 Login Attempt - Parsed Username: test567
+2025/04/07 16:07:40 Login Attempt - Parsed Password: test567
+2025/04/07 16:07:40 User found in database: test567
+2025/04/07 16:07:40 Comparing password and hash
+2025/04/07 16:07:40 Plain Password: test567
+2025/04/07 16:07:40 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 16:07:40 Password comparison successful
+2025/04/07 16:07:40 Password verification successful for user: test567
+2025/04/07 16:07:40 Generating JWT for: test567
+2025/04/07 16:07:40 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMTQxNjAsInN1YiI6InRlc3Q1NjcifQ.Ktqgr9ichw3FGg9Kr_cuqcjnTuhqdi8vd424u2ZuVW8
+2025/04/07 16:07:40 Login successful for user: test567
+[07-Apr-2025 16:07:39] 200 - POST /api/login -   87.868917ms
+[07-Apr-2025 16:17:00] 204 - OPTIONS /api/login -      71.708µs
+2025/04/07 16:17:01 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 16:17:01 Content-Type (Login): application/json
+2025/04/07 16:17:01 Login Attempt - Parsed Username: test567
+2025/04/07 16:17:01 Login Attempt - Parsed Password: test567
+2025/04/07 16:17:01 User found in database: test567
+2025/04/07 16:17:01 Comparing password and hash
+2025/04/07 16:17:01 Plain Password: test567
+2025/04/07 16:17:01 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 16:17:01 Password comparison successful
+2025/04/07 16:17:01 Password verification successful for user: test567
+2025/04/07 16:17:01 Generating JWT for: test567
+2025/04/07 16:17:01 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMTQ3MjEsInN1YiI6InRlc3Q1NjcifQ.ZkljguQvgb8PJNAc2b47h8R719CnjoxefarpRtawzGg
+2025/04/07 16:17:01 Login successful for user: test567
+[07-Apr-2025 16:17:00] 200 - POST /api/login -   84.617209ms
+[07-Apr-2025 16:18:04] 204 - OPTIONS /api/login -      17.375µs
+2025/04/07 16:18:04 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 16:18:04 Content-Type (Login): application/json
+2025/04/07 16:18:04 Login Attempt - Parsed Username: test567
+2025/04/07 16:18:04 Login Attempt - Parsed Password: test567
+2025/04/07 16:18:04 User found in database: test567
+2025/04/07 16:18:04 Comparing password and hash
+2025/04/07 16:18:04 Plain Password: test567
+2025/04/07 16:18:04 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 16:18:05 Password comparison successful
+2025/04/07 16:18:05 Password verification successful for user: test567
+2025/04/07 16:18:05 Generating JWT for: test567
+2025/04/07 16:18:05 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMTQ3ODUsInN1YiI6InRlc3Q1NjcifQ.0wlEYT379ePxFlutdNJ8lAy3s6aFxxe8_iOA2RdZjYY
+2025/04/07 16:18:05 Login successful for user: test567
+[07-Apr-2025 16:18:04] 200 - POST /api/login -   89.220125ms
+[07-Apr-2025 16:37:28] 204 - OPTIONS /api/login -      58.375µs
+2025/04/07 16:37:28 Raw Request Body (Login): {"username":"test456","password":"test456"}
+2025/04/07 16:37:28 Content-Type (Login): application/json
+2025/04/07 16:37:28 Login Attempt - Parsed Username: test456
+2025/04/07 16:37:28 Login Attempt - Parsed Password: test456
+2025/04/07 16:37:28 User not found in the database: record not found
+[07-Apr-2025 16:37:28] 401 - POST /api/login -     921.125µs
+[07-Apr-2025 16:37:46] 204 - OPTIONS /api/login -      21.792µs
+2025/04/07 16:37:46 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 16:37:46 Content-Type (Login): application/json
+2025/04/07 16:37:46 Login Attempt - Parsed Username: test567
+2025/04/07 16:37:46 Login Attempt - Parsed Password: test567
+2025/04/07 16:37:46 User found in database: test567
+2025/04/07 16:37:46 Comparing password and hash
+2025/04/07 16:37:46 Plain Password: test567
+2025/04/07 16:37:46 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 16:37:46 Password comparison successful
+2025/04/07 16:37:46 Password verification successful for user: test567
+2025/04/07 16:37:46 Generating JWT for: test567
+2025/04/07 16:37:46 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMTU5NjYsInN1YiI6InRlc3Q1NjcifQ.8lt97pggfA5E2iuZ30QVTsmLRdGjMoWgZgDXMM-Q89U
+2025/04/07 16:37:46 Login successful for user: test567
+[07-Apr-2025 16:37:46] 200 - POST /api/login -   97.554708ms
+[07-Apr-2025 16:43:28] 204 - OPTIONS /api/login -          82µs
+2025/04/07 16:43:29 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 16:43:29 Content-Type (Login): application/json
+2025/04/07 16:43:29 Login Attempt - Parsed Username: test567
+2025/04/07 16:43:29 Login Attempt - Parsed Password: test567
+2025/04/07 16:43:29 User found in database: test567
+2025/04/07 16:43:29 Comparing password and hash
+2025/04/07 16:43:29 Plain Password: test567
+2025/04/07 16:43:29 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 16:43:29 Password comparison successful
+2025/04/07 16:43:29 Password verification successful for user: test567
+2025/04/07 16:43:29 Generating JWT for: test567
+2025/04/07 16:43:29 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMTYzMDksInN1YiI6InRlc3Q1NjcifQ.MzQNGXect2T1SUj_ZaUpzQFRqoXE15XbOF3whuab6hQ
+2025/04/07 16:43:29 Login successful for user: test567
+[07-Apr-2025 16:43:28] 200 - POST /api/login -   88.533542ms
+[07-Apr-2025 16:43:56] 204 - OPTIONS /api/login -      25.125µs
+2025/04/07 16:43:56 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 16:43:56 Content-Type (Login): application/json
+2025/04/07 16:43:56 Login Attempt - Parsed Username: test567
+2025/04/07 16:43:56 Login Attempt - Parsed Password: test567
+2025/04/07 16:43:56 User found in database: test567
+2025/04/07 16:43:56 Comparing password and hash
+2025/04/07 16:43:56 Plain Password: test567
+2025/04/07 16:43:56 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 16:43:56 Password comparison successful
+2025/04/07 16:43:56 Password verification successful for user: test567
+2025/04/07 16:43:56 Generating JWT for: test567
+2025/04/07 16:43:56 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMTYzMzYsInN1YiI6InRlc3Q1NjcifQ.l4mF60S5OEhCy3GM-k0SN7KZsC0MOBRIv7o67oNG_O8
+2025/04/07 16:43:56 Login successful for user: test567
+[07-Apr-2025 16:43:56] 200 - POST /api/login -   85.516875ms
+[07-Apr-2025 16:46:04] 204 - OPTIONS /api/login -      25.458µs
+2025/04/07 16:46:04 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 16:46:04 Content-Type (Login): application/json
+2025/04/07 16:46:04 Login Attempt - Parsed Username: test567
+2025/04/07 16:46:04 Login Attempt - Parsed Password: test567
+2025/04/07 16:46:04 User found in database: test567
+2025/04/07 16:46:04 Comparing password and hash
+2025/04/07 16:46:04 Plain Password: test567
+2025/04/07 16:46:04 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 16:46:04 Password comparison successful
+2025/04/07 16:46:04 Password verification successful for user: test567
+2025/04/07 16:46:04 Generating JWT for: test567
+2025/04/07 16:46:04 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMTY0NjQsInN1YiI6InRlc3Q1NjcifQ.h-3jwZz0JAIHmCou2rLmeWPp0pmfJo7pWv5pkvm1c9Q
+2025/04/07 16:46:04 Login successful for user: test567
+[07-Apr-2025 16:46:04] 200 - POST /api/login -       88.05ms
+[07-Apr-2025 16:56:34] 204 - OPTIONS /api/login -      74.166µs
+2025/04/07 16:56:34 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 16:56:34 Content-Type (Login): application/json
+2025/04/07 16:56:34 Login Attempt - Parsed Username: test567
+2025/04/07 16:56:34 Login Attempt - Parsed Password: test567
+2025/04/07 16:56:34 User found in database: test567
+2025/04/07 16:56:34 Comparing password and hash
+2025/04/07 16:56:34 Plain Password: test567
+2025/04/07 16:56:34 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 16:56:34 Password comparison successful
+2025/04/07 16:56:34 Password verification successful for user: test567
+2025/04/07 16:56:34 Generating JWT for: test567
+2025/04/07 16:56:34 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMTcwOTQsInN1YiI6InRlc3Q1NjcifQ.5FwLKXOWUWHiZhFGvONbPnIS3u9HyVhG2tx3caqFylc
+2025/04/07 16:56:34 Login successful for user: test567
+[07-Apr-2025 16:56:34] 200 - POST /api/login -   85.315917ms
+[07-Apr-2025 17:42:36] 204 - OPTIONS /api/login -      44.833µs
+2025/04/07 17:42:37 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 17:42:37 Content-Type (Login): application/json
+2025/04/07 17:42:37 Login Attempt - Parsed Username: test567
+2025/04/07 17:42:37 Login Attempt - Parsed Password: test567
+2025/04/07 17:42:37 User found in database: test567
+2025/04/07 17:42:37 Comparing password and hash
+2025/04/07 17:42:37 Plain Password: test567
+2025/04/07 17:42:37 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 17:42:37 Password comparison successful
+2025/04/07 17:42:37 Password verification successful for user: test567
+2025/04/07 17:42:37 Generating JWT for: test567
+2025/04/07 17:42:37 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMTk4NTcsInN1YiI6InRlc3Q1NjcifQ.AMT6_JK6I38QK-Au1GXDOsgay5fvOS9hKs29vOAWShw
+2025/04/07 17:42:37 Login successful for user: test567
+[07-Apr-2025 17:42:36] 200 - POST /api/login -   85.234917ms
+2025/04/07 17:44:18 Server starting on http://localhost:8080
+[07-Apr-2025 17:45:10] 204 - OPTIONS /api/login -      10.209µs
+2025/04/07 17:45:10 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 17:45:10 Content-Type (Login): application/json
+2025/04/07 17:45:10 Login Attempt - Parsed Username: test567
+2025/04/07 17:45:10 Login Attempt - Parsed Password: test567
+2025/04/07 17:45:10 User found in database: test567
+2025/04/07 17:45:10 Comparing password and hash
+2025/04/07 17:45:10 Plain Password: test567
+2025/04/07 17:45:10 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 17:45:10 Password comparison successful
+2025/04/07 17:45:10 Password verification successful for user: test567
+2025/04/07 17:45:10 Generating JWT for: test567
+2025/04/07 17:45:10 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMjAwMTAsInN1YiI6InRlc3Q1NjcifQ.kO_M3qNsv89SPOHbQkK7cLzApiM39MWWbi-J6fk71AE
+2025/04/07 17:45:10 Login successful for user: test567
+[07-Apr-2025 17:45:10] 200 - POST /api/login -    73.44925ms
+[07-Apr-2025 20:39:28] 204 - OPTIONS /api/login -      40.375µs
+2025/04/07 20:39:28 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 20:39:28 Content-Type (Login): application/json
+2025/04/07 20:39:28 Login Attempt - Parsed Username: test567
+2025/04/07 20:39:28 Login Attempt - Parsed Password: test567
+2025/04/07 20:39:28 User found in database: test567
+2025/04/07 20:39:28 Comparing password and hash
+2025/04/07 20:39:28 Plain Password: test567
+2025/04/07 20:39:28 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 20:39:28 Password comparison successful
+2025/04/07 20:39:28 Password verification successful for user: test567
+2025/04/07 20:39:28 Generating JWT for: test567
+2025/04/07 20:39:28 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMzA0NjgsInN1YiI6InRlc3Q1NjcifQ.vyJKKGm2DHSq-Nt9nBfe0GsdIynwk3b0AxUVHBy49ZY
+2025/04/07 20:39:28 Login successful for user: test567
+[07-Apr-2025 20:39:28] 200 - POST /api/login -      72.175ms
+[07-Apr-2025 20:40:42] 204 - OPTIONS /api/login -      31.834µs
+2025/04/07 20:40:42 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 20:40:42 Content-Type (Login): application/json
+2025/04/07 20:40:42 Login Attempt - Parsed Username: test567
+2025/04/07 20:40:42 Login Attempt - Parsed Password: test567
+2025/04/07 20:40:42 User found in database: test567
+2025/04/07 20:40:42 Comparing password and hash
+2025/04/07 20:40:42 Plain Password: test567
+2025/04/07 20:40:42 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 20:40:43 Password comparison successful
+2025/04/07 20:40:43 Password verification successful for user: test567
+2025/04/07 20:40:43 Generating JWT for: test567
+2025/04/07 20:40:43 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMzA1NDMsInN1YiI6InRlc3Q1NjcifQ.vz_UZI4tQWNqHWpq_kg1M3jnd3OnmL4_EC0dFM_DYkk
+2025/04/07 20:40:43 Login successful for user: test567
+[07-Apr-2025 20:40:42] 200 - POST /api/login -   70.492291ms
+[07-Apr-2025 20:41:53] 204 - OPTIONS /api/login -       22.25µs
+2025/04/07 20:41:53 Raw Request Body (Login): {"username":"test567","password":"test567"}
+2025/04/07 20:41:53 Content-Type (Login): application/json
+2025/04/07 20:41:53 Login Attempt - Parsed Username: test567
+2025/04/07 20:41:53 Login Attempt - Parsed Password: test567
+2025/04/07 20:41:53 User found in database: test567
+2025/04/07 20:41:53 Comparing password and hash
+2025/04/07 20:41:53 Plain Password: test567
+2025/04/07 20:41:53 Stored Hash: $2a$10$P5Pe5/wEbq5SMXtVIvWIm.hYxHN/Eq1jxRmT8Wax1sdp7q3J9pPYe
+2025/04/07 20:41:53 Password comparison successful
+2025/04/07 20:41:53 Password verification successful for user: test567
+2025/04/07 20:41:53 Generating JWT for: test567
+2025/04/07 20:41:53 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3Q1NjciLCJleHAiOjE3NDQwMzA2MTMsInN1YiI6InRlc3Q1NjcifQ.SuRYTnBy6iVACnG3X23ACwGdP-6UUTm9nlcs-_h1Eew
+2025/04/07 20:41:53 Login successful for user: test567
+[07-Apr-2025 20:41:53] 200 - POST /api/login -   69.876584ms
+2025/04/07 22:47:22 Server starting on http://localhost:8080
+2025/04/07 22:47:50 Comparing password and hash
+2025/04/07 22:47:50 Plain Password: mypassword12
+2025/04/07 22:47:50 Stored Hash: $2a$10$1xb4.VeUHodA8z71XtZiAOXzn6m03j5p8cTtOvyqoxx9DHRSrVoR6
+2025/04/07 22:47:50 Password comparison successful
+2025/04/07 22:47:50 Generating JWT for: testuser12
+2025/04/07 22:47:50 Generated JWT: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3R1c2VyMTIiLCJleHAiOjE3NDQwMzgxNzAsInN1YiI6InRlc3R1c2VyMTIifQ.Fvaf1VMPE1X_waRutViw_KwqzwmY0q3smfL1p1RZLr8
+[07-Apr-2025 22:47:50] 200 - POST /api/login -   68.284875ms
+2025/04/07 22:48:45 Received Registration Username: testuser121
+2025/04/07 22:48:45 Received Registration Password: mypassword121
+2025/04/07 22:48:45 Hashing password: mypassword121
+2025/04/07 22:48:45 Generated hash: $2a$10$Sh4nNEUZ/Bs306Ay1xPrduzS5M2M7Knng/R9/YTFFNhAm4pDw9yri
+2025/04/07 22:48:45 User registered successfully: testuser121
+[07-Apr-2025 22:48:44] 200 - POST /api/register -   80.874292ms
+2025/04/08 10:40:26 Server starting on http://localhost:8080
+2025/04/08 10:41:02 Received Registration Username: testuser1211
+2025/04/08 10:41:02 Received Registration Password: mypassword1211
+2025/04/08 10:41:02 Hashing password: mypassword1211
+2025/04/08 10:41:03 Generated hash: $2a$10$x1Z05IoQOXBxu2PCoK4us.fQYXlNxcP32NoNcw6GIAe03D98k5.7y
+2025/04/08 10:41:03 User registered successfully: testuser1211
+[08-Apr-2025 10:41:02] 200 - POST /api/register -   72.122375ms
+2025/04/08 10:41:10 Kratos client not initialized
+2025/04/08 10:41:10 Kratos authentication failed: Kratos client not initialized
+[08-Apr-2025 10:41:09] 401 - POST /api/login -     157.208µs
+2025/04/08 10:41:29 Kratos client not initialized
+2025/04/08 10:41:29 Kratos authentication failed: Kratos client not initialized
+[08-Apr-2025 10:41:29] 401 - POST /api/login -     159.166µs
+2025/04/08 10:52:14 Server starting on http://localhost:8080
+2025/04/08 10:52:21 Error validating Kratos session: Get "http://localhost:4433/sessions/whoami": dial tcp 127.0.0.1:4433: connect: connection refused
+2025/04/08 10:52:21 Kratos authentication failed: Get "http://localhost:4433/sessions/whoami": dial tcp 127.0.0.1:4433: connect: connection refused
+[08-Apr-2025 10:52:21] 401 - POST /api/login -    2.635959ms
+2025/04/08 11:10:42 Server starting on http://localhost:8080
+2025/04/08 11:10:56 Error validating Kratos session: Get "http://host.docker.internal:4433/sessions/whoami": dial tcp: lookup host.docker.internal: no such host
+2025/04/08 11:10:56 Kratos authentication failed: Get "http://host.docker.internal:4433/sessions/whoami": dial tcp: lookup host.docker.internal: no such host
+[08-Apr-2025 11:10:56] 401 - POST /api/login -      29.525ms
+2025/04/08 11:12:55 Server starting on http://localhost:8080
+2025/04/08 11:13:03 Error validating Kratos session: Get "http://kratos:4433/sessions/whoami": dial tcp: lookup kratos: no such host
+2025/04/08 11:13:03 Kratos authentication failed: Get "http://kratos:4433/sessions/whoami": dial tcp: lookup kratos: no such host
+[08-Apr-2025 11:13:03] 401 - POST /api/login -   10.714791ms
+2025/04/08 11:44:01 Server starting on http://localhost:8080
+2025/04/08 11:45:18 Error validating Kratos session: Get "http://kratos:4433/sessions/whoami": dial tcp: lookup kratos: no such host
+2025/04/08 11:45:18 Kratos authentication failed: Get "http://kratos:4433/sessions/whoami": dial tcp: lookup kratos: no such host
+[08-Apr-2025 11:45:17] 401 - POST /api/login -   13.411167ms
+2025/04/08 12:06:03 Server starting on http://localhost:8080
+2025/04/08 12:06:10 Error validating Kratos session: Get "http://kratos:4433/sessions/whoami": dial tcp: lookup kratos: no such host
+2025/04/08 12:06:10 Kratos authentication failed: Get "http://kratos:4433/sessions/whoami": dial tcp: lookup kratos: no such host
+[08-Apr-2025 12:06:09] 401 - POST /api/login -   48.259167ms

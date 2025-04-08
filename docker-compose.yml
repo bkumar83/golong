@@ -1,0 +1,35 @@
+version: '3.8'
+services:
+  kratos:
+    image: oryd/kratos:v0.11.0
+    ports:
+      - "4433:4433"
+      - "4434:4434"
+    environment:
+      - DSN=sqlite:///var/lib/kratos/db.sqlite
+      - KRATOS_PUBLIC_PORT=4433
+      - KRATOS_ADMIN_PORT=4434
+      - KRATOS_PUBLIC_URL=http://kratos:4433
+      - KRATOS_ADMIN_URL=http://kratos:4434
+      - KRATOS_COOKIE_SECRET=your-cookie-secret
+    networks:
+      kratos-network:
+        aliases:
+          - kratos
+
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8080"
+    environment:
+      - ORY_KRATOS_URL=http://kratos:4433
+    networks:
+      - kratos-network
+    depends_on:
+      - kratos
+
+networks:
+  kratos-network:
+    driver: bridge
