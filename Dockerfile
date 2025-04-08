@@ -1,15 +1,15 @@
-# Stage 1: Build Go from source using Go 1.21 as a bootstrap
+# Stage 1: Build Go from source using Go 1.22 as a bootstrap
 FROM debian:bullseye AS builder
 
 # Install dependencies for building Go
 RUN apt-get update && apt-get install -y wget tar gcc libc6-dev make
 
-# Download and install Go 1.21 as a separate bootstrap version
-RUN wget https://go.dev/dl/go1.21.1.linux-amd64.tar.gz && \
-    tar -C /usr/local -xzf go1.21.1.linux-amd64.tar.gz
+# Download and install Go 1.22.6 as a separate bootstrap version
+RUN wget https://go.dev/dl/go1.22.6.linux-amd64.tar.gz && \
+    tar -C /usr/local -xzf go1.22.6.linux-amd64.tar.gz
 
 # Set up environment variables for Go build
-ENV GOROOT_BOOTSTRAP=/usr/local/go1.21
+ENV GOROOT_BOOTSTRAP=/usr/local/go1.22
 
 # Download and build Go 1.24 from source
 RUN wget https://go.dev/dl/go1.24.0.src.tar.gz && \
